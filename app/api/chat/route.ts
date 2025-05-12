@@ -5,7 +5,7 @@ import { getModel } from "@/lib/ai/model-router";
 import { checkSubscription } from "@/lib/middleware/subscription-check";
 
 export const maxDuration =30; // Allow streaming responses up to30 seconds
-
+a
 export async function POST(request: NextRequest) {
  // Check subscription tier and usage limits
  const subscriptionCheck = await checkSubscription(request);
